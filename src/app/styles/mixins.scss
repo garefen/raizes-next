@@ -1,0 +1,23 @@
+/*
+* Variables for breakpoints
+*/
+$mobile-landscape: 568px;
+$tablet: 768px;
+$desktop: 992px;
+
+/*
+* Map for breakpoints
+*/
+$breakpoints: (
+  "sm": '(min-width: 568px)',
+  "md": '(min-width: 768px)',
+  "lg": '(min-width: 1024px)',
+); 
+
+@mixin bp-size($size) {
+  $query: map-get($breakpoints, $size);
+
+  @media #{$query} {
+    @content;
+  }
+}
