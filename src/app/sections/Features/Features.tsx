@@ -1,5 +1,6 @@
 import "./Features.scss";
 import Image from "next/image";
+import svgV from "../../../../public/v.svg";
 
 export default function Features() {
   return (
@@ -10,7 +11,7 @@ export default function Features() {
         <ul className="features__list">
           <li className="features__item">
             <Image 
-              src="/v.svg"
+              src={svgV}
               alt=""
               width={20}
               height={20}
@@ -19,7 +20,7 @@ export default function Features() {
           </li>
           <li className="features__item">
             <Image 
-              src="/v.svg"
+              src={svgV}
               alt=""
               width={20}
               height={20}
@@ -28,7 +29,7 @@ export default function Features() {
           </li>
           <li className="features__item">
             <Image 
-              src="/v.svg"
+              src={svgV}
               alt=""
               width={20}
               height={20}
@@ -39,7 +40,7 @@ export default function Features() {
         <ul className="features__list">
           <li className="features__item">
             <Image 
-              src="/v.svg"
+              src={svgV}
               alt=""
               width={20}
               height={20}
@@ -48,7 +49,7 @@ export default function Features() {
           </li>
           <li className="features__item">
             <Image 
-              src="/v.svg"
+              src={svgV}
               alt=""
               width={20}
               height={20}
